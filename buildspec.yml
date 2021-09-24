@@ -20,8 +20,8 @@ phases:
       - npm install
   build:
     commands:
-      # - echo Testing...
-      # - npm test
+      - echo Testing...
+      - npm test
       - echo Building...
       - npm run build
 artifacts:
